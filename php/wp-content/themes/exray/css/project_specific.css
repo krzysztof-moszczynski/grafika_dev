@@ -1,0 +1,93 @@
+#main-container {
+  position: relative;
+  min-height: 800px;
+  overflow: hidden;
+  padding-top: 45px;
+}
+#header-wrap {
+  position: relative;
+}
+#header-wrap #swps_logo {
+  position: absolute;
+  top: 3px;
+  left: 1035px;
+}
+#header-wrap .logo {
+  margin-left: -12px;
+}
+#primary .menu a {
+  color: #000;
+}
+.lwa a {
+  color: #000;
+}
+#speciality div {
+  margin-top: 2em;
+}
+
+#class_slider {
+  width: 660px;
+  height: 205px;
+  text-align: center;
+}
+#class_slider li {
+  width: 660px;
+}
+
+#footer-container {
+  position: relative;
+}
+#footer-container .bottom-footer {
+  float: none;
+  margin: 0 auto;
+}
+#footer-container #gfx_motif {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: -webkit-calc((100% - 810px) / 2);
+  width:         calc((100% - 810px) / 2);
+  max-height: 369px;
+  max-width: 410px;
+  min-height: 170px;
+  min-width: 193px;
+}
+#footer-container #eu_project_logos {
+  position: relative;
+  margin: 3em 0 0;
+  overflow: hidden;
+}
+#footer-container #eu_project_logos img {
+  width: 30%;
+}
+#footer-container #eu_project_logos li:first-child img {
+  float: left;
+}
+#footer-container #eu_project_logos li:nth-child(2) img {
+  position: absolute;
+  bottom: 0;
+  left: 37%;
+}
+#footer-container #eu_project_logos li:last-child img {
+  float: right;
+}
+.footer-widget-area {
+  margin-top: 0;
+}
+
+@media (max-width: 1262px) {
+  #header-wrap #swps_logo {
+    left: 915px;
+  }
+}
+@media (max-width: 1142px) {
+  #header-wrap #swps_logo {
+    left: auto;
+    right: 15px;
+  }
+}
+@media (max-width: 305px) {
+  #header-wrap #swps_logo {
+    display: none;
+  }
+}

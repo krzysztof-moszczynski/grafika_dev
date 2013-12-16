@@ -1,0 +1,106 @@
+.gce-widget-grid {
+  position: relative;
+  margin-bottom: 80px;
+  border-bottom: 1px solid #d5d5d6;
+}
+.sidebar-widget table caption {
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid #d5d5d6;
+  background: none;
+  text-align: left;
+  font-weight: normal;
+}
+.sidebar-widget .gce-widget-grid .gce-calendar {
+  border: none;
+}
+.sidebar-widget .gce-widget-grid .gce-calendar .gce-caption {
+  text-align: left;
+  font-size: 16px;
+  padding-bottom: 6px;
+}
+.sidebar-widget .gce-widget-grid .gce-calendar .gce-month-title {
+  width: auto;
+  text-indent: -4px;
+}
+.sidebar-widget .gce-widget-grid .gce-calendar .gce-prev,
+.sidebar-widget .gce-widget-grid .gce-calendar .gce-next {
+  width: 0;
+}
+.sidebar-widget .gce-widget-grid .gce-calendar .gce-prev a,
+.sidebar-widget .gce-widget-grid .gce-calendar .gce-next a {
+  position: absolute;
+  bottom: -30px;
+  width: 18px;
+  height: 12px;
+  background: url(../images/pk_sprite.png) -58px -2px;
+  text-indent: -9999px;
+}
+.sidebar-widget .gce-widget-grid .gce-calendar .gce-prev a:hover,
+.sidebar-widget .gce-widget-grid .gce-calendar .gce-next a:hover {
+  border: none;
+}
+.sidebar-widget .gce-widget-grid .gce-calendar .gce-prev a {
+  left: 37%;
+}
+.sidebar-widget .gce-widget-grid .gce-calendar .gce-next a {
+  background-position: -76px -2px;
+  right: 37%;
+}
+.sidebar-widget .gce-calendar tbody tr:first-child {
+  display: none;
+}
+.sidebar-widget .gce-widget-grid .gce-calendar td {
+  padding: 3px 6px;
+  border: none;
+  background: none;
+  color: inherit;
+}
+.sidebar-widget .gce-widget-grid .gce-calendar td.gce-has-events {
+  color: #e85b2d;
+  font-weight: bold;
+}
+.sidebar-widget .gce-widget-grid .gce-calendar tr:nth-of-type(2n) {
+  background: none;
+}
+
+.qtip {
+  width: 260px !important;
+}
+.qtip .gce-event-info ul li p span,
+.qtip .gce-event-info ul li div span {
+  color: inherit;
+}
+.qtip .gcs_custom_tooltip .gce-list-event {
+  padding: 0 3px;
+  margin-bottom: 6px;
+  border: none;
+  background: none;
+  font-weight: normal;
+  font-size: 16px;
+}
+.qtip .gcs_custom_tooltip .row {
+  margin-top: 3px;
+  padding: 3px;
+  border-top: 1px solid #666;
+}
+.qtip .gcs_custom_tooltip .left {
+  width: 80px;
+  clear: both;
+}
+.qtip .gcs_custom_tooltip .right {
+  width: 145px;
+}
+.qtip .gce-event-info {
+  max-width: 400px;
+  padding: 6px;
+  border: none;
+  background: #fff;
+}
+.qtip .gce-event-info .gce-tooltip-title {
+  margin: 5px 5px -10px;
+  padding: 4px 3px 0;
+  border-top: 1px solid #666;
+  font-weight: normal;
+  font-size: 14px;
+}
