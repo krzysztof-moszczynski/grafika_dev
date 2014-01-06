@@ -166,9 +166,15 @@ function insert_posts_list($atts) {
   $cat_name = $atts['cat_name'];
   $posts_per_page = (int)$posts_per_page = $atts['posts_per_page'] ?: get_option('posts_per_page');
   $actual_page = (int)$actual_page = get_query_var('ppno') ?: 1;
+  if (empty($atts['pagination'])) {
+    $atts['pagination'] = false;
+  }
   $insert_pagination = $atts['pagination'];
+  if (empty($atts['filter'])) {
+    $atts['filter'] = 'latest';
+  }
   $filter = get_query_var('filter') ?: $atts['filter'];
-  if ($filter !== 'latest' && !empty($filter)) {
+  if ($filter !== 'latest') {
     $cat_name = $filter;
   }
   $args = array('category_name' => $cat_name, 'pagination' => false, 'paged' => $actual_page, 'posts_per_page' => $posts_per_page,);
@@ -265,7 +271,10 @@ add_shortcode('insert_posts_list', 'insert_posts_list');
 
 function insert_full_width_slider($atts) {
   $cat_name = $atts['cat_name'];
-  $posts_per_page = (int)$posts_per_page = $atts['posts_per_page'] ?: get_option('posts_per_page');
+  if (empty($atts['posts_per_page'])) {
+    $atts['posts_per_page'] = get_option('posts_per_page');
+  }
+  $posts_per_page = (int)$posts_per_page = $atts['posts_per_page'];
   $args = array('category_name' => $cat_name, 'pagination' => false, 'posts_per_page' => $posts_per_page,);
   $query = new WP_Query($args);
 

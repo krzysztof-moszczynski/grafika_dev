@@ -244,6 +244,7 @@ function retrieve_password() {
 		// Now insert the new md5 key into the db
 		$wpdb->update($wpdb->users, array('user_activation_key' => $key), array('user_login' => $user_login));
 	}
+// ZQ
 	$message = __('Someone requested that the password be reset for the following account:') . ' ';
 	$message .= $user_login . "\r\n";
 	$message .= __('If this was a mistake, just ignore this email and nothing will happen.') . "\r\n";
