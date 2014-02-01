@@ -79,9 +79,9 @@
     event.preventDefault();
     jQuery('#menu-left-menu-strefa-studenta > li:nth-child(1) > a ~ ul').toggle('fast');
   });
-  jQuery('#menu-left-menu-strefa-studenta > li:nth-child(1) > ul > li:nth-child(3) > a').click(function(event) {       // very custom selector (pliki do pobrania)
+  jQuery('#menu-left-menu-strefa-studenta > li:nth-child(1) > ul > li:nth-child(2) > a').click(function(event) {       // very custom selector (pliki do pobrania)
     event.preventDefault();
-    jQuery('#menu-left-menu-strefa-studenta > li:nth-child(1) > ul > li:nth-child(3) > a ~ ul').toggle('fast');
+    jQuery('#menu-left-menu-strefa-studenta > li:nth-child(1) > ul > li:nth-child(2) > a ~ ul').toggle('fast');
   });
   jQuery('#menu-primary-navigation > li:nth-child(2) > a').click(function(event) {       // very custom selector (studia)
     event.preventDefault();
@@ -91,9 +91,9 @@
     event.preventDefault();
     jQuery('#menu-primary-navigation > li:nth-child(3) > a ~ ul').toggle('fast');
   });
-  jQuery('#menu-primary-navigation > li:nth-child(3) > ul > li:nth-child(3) > a').click(function(event) {       // very custom selector (ludzie/studenci)
+  jQuery('#menu-primary-navigation > li:nth-child(3) > ul > li:nth-child(2) > a').click(function(event) {       // very custom selector (ludzie/studenci)
     event.preventDefault();
-    jQuery('#menu-primary-navigation > li:nth-child(3) > ul > li:nth-child(3) > a ~ ul').toggle('fast');
+    jQuery('#menu-primary-navigation > li:nth-child(3) > ul > li:nth-child(2) > a ~ ul').toggle('fast');
   });
   jQuery('#menu-primary-navigation > li:nth-child(5) > a').click(function(event) {       // very custom selector (prace)
     jQuery('#menu-primary-navigation > li:nth-child(5) > a ~ ul').toggle('fast');
