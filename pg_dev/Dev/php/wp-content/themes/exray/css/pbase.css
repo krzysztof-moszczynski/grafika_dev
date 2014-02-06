@@ -180,6 +180,12 @@ a[href*="#no-link"] {
 #primary #menu-social-media a[href*="vimeo"] {
   background-position: -90px -140px;
 }
+#primary #menu-social-media a[href*="youtube"] {
+  background-position: -150px -140px;
+}
+#primary #menu-social-media a[href*="google"] {
+  background-position: -180px -140px;
+}
 #primary #menu-social-media a[href*="rss"],
 #primary #menu-social-media a[href*="RSS"] {
   background-position: -120px -140px;
