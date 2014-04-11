@@ -95,6 +95,7 @@ define('WP_DEBUG', false);
 * Disable all automatic updates.
 */
 define('AUTOMATIC_UPDATER_DISABLED', true);
+define('WP_AUTO_UPDATE_CORE', false);
 
 /* To wszystko, zakończ edycję w tym miejscu! Miłego blogowania! */
 
