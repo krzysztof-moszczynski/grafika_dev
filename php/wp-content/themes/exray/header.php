@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> >
     <head>
+        <meta name="wot-verification" content="48c04e99dc6a4dba8a96"/>
         <meta charset="<?php bloginfo('charset'); ?>">
         <title><?php wp_title('|', true, 'right'); ?></title>
         <meta name="author" content="" >
