@@ -104,7 +104,7 @@
                             </div>	
                             <!-- End Span9 -->						
                         </div> 	
-                        <a href="http://www.swps.pl/wroclaw" id="swps_logo" class="no_hover"><img src="/wp-content/themes/exray/images/swps_logo.png" alt="SWPS logo"></a>
+                        <a href="http://www.swps.pl/wroclaw" id="swps_logo" class="no_hover"><img src="<?php echo esc_url(home_url()); ?>/wp-content/themes/exray/images/swps_logo.png" alt="SWPS logo"></a>
                         <!-- End row -->
                     </div>	
                     <!-- End container -->
