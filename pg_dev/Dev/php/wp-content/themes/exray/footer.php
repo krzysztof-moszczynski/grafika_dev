@@ -26,7 +26,7 @@
     <!--End footer-widget-area-->
   </footer> 
   <!--End Footer-->
-  <img id="gfx_motif" src="/wp-content/themes/exray/images/motif.png" alt="gfx motif">
+  <img id="gfx_motif" src="<?php echo esc_url(home_url()); ?>/wp-content/themes/exray/images/motif.png" alt="gfx motif">
 </div>
 <!--End footer-container-->
 </div> 
