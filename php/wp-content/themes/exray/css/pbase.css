@@ -344,25 +344,33 @@ h2 .subtitle {
   border-bottom: 1px solid #d5d5d6;
 }
 .asymmetric_list:not(.scrollable) .items li,
-.symmetric_list .items li {
+.symmetric_list .items li, 
+.symmetric_list_floating .items li {
   position: relative;
   margin-bottom: 1em;
   padding-top: 1em;
 }
 .asymmetric_list:not(.scrollable) .items li:nth-child(3n):after,
-.symmetric_list .items li:nth-child(4n):after {
+.symmetric_list .items li:nth-child(4n):after,
+.symmetric_list_floating .items li:nth-child(3n-2):after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   height: 0;
   width: 660px;
+}
+.asymmetric_list:not(.scrollable) .items li:nth-child(3n):after,
+.symmetric_list .items li:nth-child(4n):after{
   border-bottom: 1px solid #d5d5d6;
 }
+.asymmetric_list:not(.scrollable) .items li:nth-child(3n):after,
+.symmetric_list .items li:nth-child(4n):after,
 .asymmetric_list:not(.scrollable) .items li:nth-child(1),
 .asymmetric_list:not(.scrollable) .items li:nth-child(3n),
 .symmetric_list .items li:nth-child(1),
-.symmetric_list .items li:nth-child(4n) {
+.symmetric_list .items li:nth-child(4n),
+.symmetric_list_floating .items li:nth-child(3n-2) {
   margin-left: 0;
   clear: both;
 }
